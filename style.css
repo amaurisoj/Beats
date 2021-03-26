@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+header{
+    display: flex;
+    flex-direction: column;
+   height: 20%;
+   background-color: #129799;
+
+}
+.header-menu, .header-main-container{
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+.header-second-container {
+    width: 120rem;
+    height: 5rem;
+
+}
+.second-container{
+width: 25rem;
+}
+.second-menu{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    list-style: none;
+    color: #fff;
+  
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;  
+    width: 40rem;
+    font-size: 2rem;
+    list-style: none;
+    color: #fff;
+}
+.aquarela{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    height: 20rem;
+    width: 40em;
+    font-size: 40px;
+}
+.div-aquarela{
+    width: 90%;
+justify-content: space-around;
+}
+h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+}
+h2{ 
+    color: #fff;
+
+}
+
+main{
+    height: 40%;
+    background-color: #FFA185;
+}
+footer{
+    height: 40%;
+    background-color: #129799;
+    display: flex;
+
+}
+.footer-menu, .logo-container{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-container{
+    width: 50rem;
+}
+.footer-menu{
+    width: 90rem;
+}
+.p-{
+    color: black;
+    
+}
+.div-p-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    height: 8rem;
+    font-size: 2rem;
+    width: 104rem;
+}
+a{
+     text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: none;
+    font-weight: bolder;
+}
+.main-img{
+    width: 40rem;
+    height: 21rem;
+}
+.section-img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.img-container{
+    width: 42rem;
+}
+.img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
